@@ -1,0 +1,16 @@
+{
+  "health_endpoint": "/heartbeat",
+  "predict_endpoint": "/score",
+  "port": 8080,
+  "health_response": {
+    "status": "healthy",
+    "model_loaded": true
+  },
+  "test_input": {
+    "controls_count": 86,
+    "evidence_items": 341,
+    "auditor_experience": 7,
+    "is_regulatory": 0
+  },
+  "prediction": 31.085
+}
