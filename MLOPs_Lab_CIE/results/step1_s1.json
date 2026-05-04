@@ -1,0 +1,18 @@
+{
+  "experiment_name": "audittrail-audit-completion-days",
+  "models": [
+    {
+      "name": "LinearRegression",
+      "mae": 4.9919,
+      "rmse": 6.1603
+    },
+    {
+      "name": "GradientBoosting",
+      "mae": 3.8765,
+      "rmse": 4.6204
+    }
+  ],
+  "best_model": "GradientBoosting",
+  "best_metric_name": "mae",
+  "best_metric_value": 3.8765
+}
